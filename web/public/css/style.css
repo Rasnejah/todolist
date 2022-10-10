@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+    font-size: 16px;
+    background-color: #3C2317;
+     
+}
+.container{            
+    min-height: 100vh;  
+    padding: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#3C2317, #b64815);
+}
+
+.box{            
+    max-width: 90%;           
+    border-radius: 25px;  
+    background-color: #F5EFE6; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 3%;    
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+button:hover{
+    background-color: rgb(166, 255, 0);
+}
+
+.remove{
+    background-color: #EB1D36;
+    
+}
+.done{
+    background-color: #3D8361;
+}
+.clear{
+    clear: both;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+    padding: 1% 0;
+}
+#form, #tasks{
+    width: 100%;
+    padding: 3%;
+    border-radius: 3px;
+    margin: 2%;
+    
+}
+#form{
+    background-color: #B4CDE6;
+}
+#tasks{
+    border: 1px solid  #B4CDE6;
+}
+#form input{
+    width: 100%;
+    margin: 3px;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+
+}
+#form button{  
+    width:100%;
+    border: none;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    background-color: #628E90;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#form button:hover{            
+    background-color: #65b2b6;
+}
+
+#tasks hr{
+    border: #628E90 solid 1px;
+}
+#tasks .row{
+    margin: 2% 0;            
+}
+
+#box-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#card{
+    flex: 1;
+    border-radius: 25px;    
+    min-width: 315px;
+    margin: 3px;
+    padding: 1%;
+    background-color: #DBC8AC;
+    border: rebeccapurple 1px solid;
+}
+#card-body{
+    flex: 1; 
+    border-bottom: rebeccapurple 1px solid;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    padding: 2%;
+}
+#card-content{
+    
+    text-transform:capitalize;
+    padding: 3%;
+    border-bottom: rebeccapurple 1px solid;
+}
+
+#card-footer{    
+    padding: 3%;      
+    font-size: 1.5rem;   
+}
+#card-footer button{
+    
+    margin: 2%; 
+    float: right;     
+    border: none;
+    padding: 2%;
+    font-size: 1rem;
+    border: none;
+    
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+

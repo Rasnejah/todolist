@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codar.Me</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Renato da Silva Batista</h1>
+
+
+    <script>
+
+        function calc(val1, val2, calc){
+            switch(calc){
+                case "soma":
+                    return `soma = ${val1 + val2}`
+                    break
+                case "mult":
+                    return `multiplicação = ${val1 * val2}`
+                    break
+                case "div": 
+                    return `multiplicação = ${val1 / val2}`
+                    break
+                case "sub": 
+                    return `Subtração = ${val1 - val2}`
+                    break
+                default:
+                    return "Calculo não configurado"
+            }
+        }
+        console.log(calc(23,418, "mult"))
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

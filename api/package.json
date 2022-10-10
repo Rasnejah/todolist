@@ -1,0 +1,19 @@
+{
+  "name": "api_task",
+  "version": "0.1.0",
+  "description": "api da todo list",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongoose": "^6.6.5",
+    "restify": "^8.6.1"
+  }
+}
